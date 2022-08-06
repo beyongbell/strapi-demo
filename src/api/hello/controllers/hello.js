@@ -5,7 +5,7 @@
  */
 
 module.exports = {
-  async test_create_permission(ctx, next) {
+  async index(ctx, next) {
     try {
       ctx.body = 'ok';
     } catch (err) {

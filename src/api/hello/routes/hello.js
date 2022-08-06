@@ -3,7 +3,7 @@ module.exports = {
         {
             method: 'GET',
             path: '/hello',
-            handler: 'hello.test_create_permission'
+            handler: 'hello.index'
         }
    ]
 };
